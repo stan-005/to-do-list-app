@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Todo app</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-mode">
+  <!-- Dark mode icon -->
+  <img id="dark-mode-icon" src="images/icon-moon.svg" alt="Dark mode" style="display: none; cursor: pointer;">
+
+  <!-- Light mode icon -->
+  <img id="light-mode-icon" src="images/icon-sun.svg" alt="Light mode" style="cursor: pointer;">
+  <div class="background-image"></div>
+  <div class="todo-container">
+      <h1>TODO</h1>
+      <input type="text" id="todo-input" placeholder="Create a new todo...">
+      <ul id="todo-list"></ul>
+      <div class="todo-footer">
+          <span id="item-count"></span>
+          <div class="filters">
+              <button id="all-btn" class="active">All</button>
+              <button id="active-btn">Active</button>
+              <button id="completed-btn">Completed</button>
+          </div>
+          <button id="clear-completed">Clear Completed</button>
+      </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#"> Stanley Nyakinda</a>.
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
